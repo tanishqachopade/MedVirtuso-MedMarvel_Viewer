@@ -1,0 +1,153 @@
+object AutoROIForm: TAutoROIForm
+  Left = 480
+  Height = 249
+  Top = 75
+  Width = 252
+  HorzScrollBar.Page = 264
+  VertScrollBar.Page = 354
+  ActiveControl = OriginBtn
+  AutoSize = True
+  BorderStyle = bsDialog
+  BorderWidth = 6
+  Caption = 'Create ROI'
+  ClientHeight = 249
+  ClientWidth = 252
+  Constraints.MaxWidth = 252
+  Constraints.MinWidth = 252
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnHide = FormHide
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.1.0.0'
+  object DiffLabel: TLabel
+    AnchorSideLeft.Control = OriginBtn
+    AnchorSideTop.Control = VarianceEdit
+    AnchorSideTop.Side = asrCenter
+    Left = 10
+    Height = 16
+    Top = 36
+    Width = 132
+    Caption = 'Difference from origin'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = OriginBtn
+    AnchorSideTop.Control = RadiusEdit
+    AnchorSideTop.Side = asrCenter
+    Left = 10
+    Height = 16
+    Top = 61
+    Width = 77
+    Caption = 'Radius (mm)'
+    ParentColor = False
+  end
+  object VarianceEdit: TSpinEdit
+    AnchorSideLeft.Control = DiffLabel
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = OriginBtn
+    AnchorSideTop.Side = asrBottom
+    Left = 150
+    Height = 21
+    Top = 34
+    Width = 72
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 4
+    MaxValue = 255
+    OnChange = AutoROIchange
+    TabOrder = 1
+    Value = 16
+  end
+  object RadiusEdit: TSpinEdit
+    AnchorSideLeft.Control = VarianceEdit
+    AnchorSideTop.Control = VarianceEdit
+    AnchorSideTop.Side = asrBottom
+    Left = 150
+    Height = 21
+    Top = 59
+    Width = 72
+    BorderSpacing.Top = 4
+    MaxValue = 9999
+    OnChange = AutoROIchange
+    TabOrder = 2
+    Value = 32
+  end
+  object ROIconstraint: TComboBox
+    AnchorSideLeft.Control = OriginBtn
+    AnchorSideTop.Control = RadiusEdit
+    AnchorSideTop.Side = asrBottom
+    Left = 10
+    Height = 20
+    Top = 84
+    Width = 226
+    BorderSpacing.Top = 4
+    ItemHeight = 26
+    ItemIndex = 0
+    Items.Strings = (
+      'Append to current VOI'
+      'Delete from current VOI'
+      'Constrain with current VOI'
+    )
+    OnChange = AutoROIchange
+    Style = csDropDownList
+    TabOrder = 3
+    Text = 'Append to current VOI'
+  end
+  object OriginBtn: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 10
+    Height = 20
+    Top = 10
+    Width = 100
+    AutoSize = True
+    BorderSpacing.Left = 4
+    BorderSpacing.Top = 4
+    Caption = 'Reset origin'
+    Constraints.MaxWidth = 114
+    OnClick = OriginBtnClick
+    TabOrder = 0
+  end
+  object AutoROIBtn: TButton
+    AnchorSideTop.Control = ROIconstraint
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 132
+    Height = 20
+    Top = 112
+    Width = 114
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    BorderSpacing.Top = 8
+    Caption = 'Apply'
+    Constraints.MinWidth = 114
+    OnClick = AutoROIBtnClick
+    TabOrder = 4
+  end
+  object CancelBtn: TButton
+    AnchorSideLeft.Control = AutoROIBtn
+    AnchorSideTop.Control = AutoROIBtn
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = AutoROIBtn
+    Left = 14
+    Height = 20
+    Top = 112
+    Width = 114
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    BorderSpacing.Right = 4
+    Caption = 'Cancel'
+    Constraints.MinWidth = 114
+    OnClick = CancelBtnClick
+    TabOrder = 5
+  end
+  object TimerROI: TTimer
+    Enabled = False
+    Interval = 400
+    OnTimer = TimerROITimer
+    Left = 160
+    Top = 32
+  end
+end
