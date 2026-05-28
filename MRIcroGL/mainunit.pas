@@ -9366,13 +9366,13 @@ begin
      ViewGPU1.Invalidate;
      exit;
   end;
-  Caption := format('%0.4g×%0.4g×%0.4g', [sliceMM.x, sliceMM.y, sliceMM.z]);
+  Caption := 'MedVirtuso-MedMarvel Software Solutions';
   vol1.SetSlice2DFrac(Vec3(c3.X, c3.Y, c3.Z));
   gSliceMM := Vec3(sliceMM.X, sliceMM.Y, sliceMM.Z);
 
   exit;
   {$ENDIF}
-  Caption := format('%0.4g×%0.4g×%0.4g', [gSliceMM.x, gSliceMM.y, gSliceMM.z]);
+  Caption := 'MedVirtuso-MedMarvel Software Solutions';
   vol1.SetSlice2DFrac(Vec3(c3.X, c3.Y, c3.Z));
   {$IFDEF COMPILEYOKE}
   SetShareFloats2D(gSliceMM.X,gSliceMM.Y,gSliceMM.Z);

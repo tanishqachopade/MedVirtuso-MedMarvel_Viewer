@@ -13,6 +13,7 @@
       <UseXPManifest Value="True"/>
       <XPManifest>
         <DpiAware Value="True"/>
+        <TextName Value="MedVirtuso-MedMarvel Software Solutions"/>
       </XPManifest>
       <Icon Value="0"/>
     </General>

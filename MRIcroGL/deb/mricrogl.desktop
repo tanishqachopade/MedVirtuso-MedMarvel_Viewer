@@ -8,4 +8,4 @@ TryExec=mricrogl
 Type=Application
 Terminal=false
 Categories=Education;Graphics;Science;DataVisualization;MedicalSoftware;GTK;Viewer;
-Icon=/usr/share/icons/hicolor/scalable/apps/mricrogl.svg
+Icon=/usr/share/icons/hicolor/scalable/apps/MRIcroGL.ico
