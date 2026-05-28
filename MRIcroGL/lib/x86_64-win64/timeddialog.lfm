@@ -1,0 +1,33 @@
+object TimedDialogForm: TTimedDialogForm
+  Left = 479
+  Height = 240
+  Top = 93
+  Width = 320
+  AutoSize = True
+  BorderIcons = []
+  BorderStyle = bsDialog
+  BorderWidth = 8
+  Caption = 'TimedDialogForm'
+  ClientHeight = 240
+  ClientWidth = 320
+  FormStyle = fsStayOnTop
+  Position = poScreenCenter
+  LCLVersion = '2.1.0.0'
+  object PromptLabel: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 8
+    Height = 16
+    Top = 8
+    Width = 77
+    Caption = 'PromptLabel'
+    ParentColor = False
+  end
+  object CloseFormTimer: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = CloseFormTimerTimer
+    left = 40
+    top = 48
+  end
+end

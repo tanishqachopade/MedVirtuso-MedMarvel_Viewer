@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="52">
+      <Unit0>
+        <Filename Value="MRIcroGL.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="60" Y="17"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GLForm1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="10191"/>
+        <CursorPos X="38" Y="10195"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dcm2nii.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dcm2niiForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="45" Y="112"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="drawvolume.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="200"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="autoroi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AutoROIForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="16" Y="23"/>
+        <UsageCount Value="201"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="nifti_hdr_view.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="HdrForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="646"/>
+        <CursorPos X="17" Y="652"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="timeddialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TimedDialogForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="TimedDialog"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="45" Y="28"/>
+        <UsageCount Value="213"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="nifti_resize.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="10"/>
+        <UsageCount Value="211"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="resize.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ResizeForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="145"/>
+        <CursorPos X="12" Y="175"/>
+        <UsageCount Value="222"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="crop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CropForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="131"/>
+        <CursorPos X="23" Y="130"/>
+        <UsageCount Value="218"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="afni_fdr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="190"/>
+        <CursorPos Y="201"/>
+        <UsageCount Value="200"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="intensityfilter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="IntensityFilterForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="22" Y="89"/>
+        <UsageCount Value="200"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="nifti_save.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos X="8" Y="133"/>
+        <UsageCount Value="230"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="nifti_types.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="77"/>
+        <CursorPos X="14" Y="95"/>
+        <UsageCount Value="96"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="slices2D.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="14" Y="96"/>
+        <UsageCount Value="84"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="niftis.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="26" Y="36"/>
+        <UsageCount Value="28"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="nifti.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="6616"/>
+        <CursorPos X="61" Y="6631"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="prefs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="25" Y="84"/>
+        <UsageCount Value="101"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="glvolume2.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="209"/>
+        <CursorPos X="27" Y="212"/>
+        <UsageCount Value="114"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="nifti_foreign.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="189"/>
+        <CursorPos X="10" Y="205"/>
+        <UsageCount Value="96"/>
+        <Loaded Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../Metal-Demos/common/SimdUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="27" Y="31"/>
+        <UsageCount Value="87"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../Metal-Demos/common/VectorMath.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="56"/>
+        <UsageCount Value="80"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../Metal-Demos/common/glgraph.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="65" Y="12"/>
+        <UsageCount Value="89"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../Metal-Demos/common/gl_core_utils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="19" Y="8"/>
+        <UsageCount Value="54"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="colorEditor.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="264"/>
+        <CursorPos X="61" Y="292"/>
+        <UsageCount Value="91"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="opts.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="98"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="sse.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="230"/>
+        <CursorPos X="92" Y="255"/>
+        <UsageCount Value="1"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="colorTable.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="562"/>
+        <CursorPos X="71" Y="568"/>
+        <UsageCount Value="108"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../lazarus/ide/lazarus.pp"/>
+        <UnitName Value="Lazarus"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="42" Y="163"/>
+        <UsageCount Value="13"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../lazarus/components/virtualtreeview/laz.virtualtrees.pas"/>
+        <UnitName Value="laz.VirtualTrees"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36801"/>
+        <CursorPos X="40" Y="36826"/>
+        <UsageCount Value="13"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../lazarus/components/opengl/glcocoanscontext.pas"/>
+        <UnitName Value="GLCocoaNSContext"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="502"/>
+        <CursorPos X="32" Y="522"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../Metal-Demos/common/retinahelper.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13" Y="22"/>
+        <UsageCount Value="88"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="umat.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="314"/>
+        <CursorPos X="69" Y="151"/>
+        <UsageCount Value="55"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../Metal-Demos/common/glopts.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3"/>
+        <UsageCount Value="83"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../fpc/source/packages/opengl/src/glext.pp"/>
+        <UnitName Value="GLext"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4717"/>
+        <CursorPos X="3" Y="4731"/>
+        <UsageCount Value="5"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="PythonBridge/PythonBridge.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="168"/>
+        <CursorPos X="121" Y="190"/>
+        <UsageCount Value="71"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../fpc/packages/opengl/src/glext.pp"/>
+        <UnitName Value="GLext"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="18"/>
+        <UsageCount Value="33"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="cylinder.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="45" Y="85"/>
+        <UsageCount Value="3"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../lazarus/components/onlinepackagemanager/opkman_mainfrm.pas"/>
+        <ComponentName Value="MainFrm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="490"/>
+        <CursorPos X="37" Y="502"/>
+        <UsageCount Value="3"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="413"/>
+        <CursorPos X="3" Y="430"/>
+        <UsageCount Value="3"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="PythonBridge/Python3Core.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="124"/>
+        <CursorPos X="31" Y="146"/>
+        <UsageCount Value="45"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../fpc/packages/fcl-process/src/processbody.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="174"/>
+        <CursorPos X="10" Y="185"/>
+        <UsageCount Value="27"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="../fpc/rtl/objpas/sysutils/filutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="186"/>
+        <CursorPos X="26" Y="198"/>
+        <UsageCount Value="27"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="fsl_calls.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="13" Y="17"/>
+        <UsageCount Value="56"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Metal-Demos/common/SimdUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="24" Y="31"/>
+        <UsageCount Value="33"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="gziputils.pas"/>
+        <UnitName Value="GZIPUtils"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="24"/>
+        <UsageCount Value="24"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="../fpc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1106"/>
+        <CursorPos X="22" Y="1118"/>
+        <UsageCount Value="26"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="vers.inc"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="46"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="nifti_tiff.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="620"/>
+        <CursorPos X="34" Y="643"/>
+        <UsageCount Value="24"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="SynZip.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="600"/>
+        <CursorPos X="42" Y="620"/>
+        <UsageCount Value="24"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="libdeflate.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="24"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="../lazarus/packager/registration/fcllaz.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35" Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit51>
+    </Units>
+    <Build>
+      <CleanOutputFileMask Value="*.ppu;*.ppl;*.o;*.or"/>
+    </Build>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="6522" Column="19" TopLine="6494"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="6580" Column="27" TopLine="6549"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="7005" Column="25" TopLine="6973"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="1610" Column="43" TopLine="1587"/>
+      </Position4>
+      <Position5>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="85" Column="20" TopLine="55"/>
+      </Position5>
+      <Position6>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="21" Column="13"/>
+      </Position6>
+      <Position7>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="75" Column="13" TopLine="55"/>
+      </Position7>
+      <Position8>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="87" Column="15" TopLine="55"/>
+      </Position8>
+      <Position9>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="121" Column="11" TopLine="89"/>
+      </Position9>
+      <Position10>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="286" Column="13" TopLine="254"/>
+      </Position10>
+      <Position11>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="7" Column="22"/>
+      </Position11>
+      <Position12>
+        <Filename Value="nifti.pas"/>
+        <Caret Line="139" Column="24" TopLine="122"/>
+      </Position12>
+      <Position13>
+        <Filename Value="nifti.pas"/>
+        <Caret Line="632" Column="39" TopLine="608"/>
+      </Position13>
+      <Position14>
+        <Filename Value="nifti.pas"/>
+        <Caret Line="3457" Column="26" TopLine="3434"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="1610" Column="43" TopLine="1587"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="6520" TopLine="6488"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="10223" Column="46" TopLine="10192"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="1557" TopLine="1538"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="10222" Column="46" TopLine="10191"/>
+      </Position19>
+      <Position20>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="181" Column="20" TopLine="163"/>
+      </Position20>
+      <Position21>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="182" Column="24" TopLine="163"/>
+      </Position21>
+      <Position22>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="190" Column="40" TopLine="167"/>
+      </Position22>
+      <Position23>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="6161" Column="20" TopLine="6138"/>
+      </Position23>
+      <Position24>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="85" Column="44" TopLine="71"/>
+      </Position24>
+      <Position25>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="113" Column="20" TopLine="90"/>
+      </Position25>
+      <Position26>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="144" Column="22" TopLine="121"/>
+      </Position26>
+      <Position27>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="8" Column="61"/>
+      </Position27>
+      <Position28>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="19" Column="17"/>
+      </Position28>
+      <Position29>
+        <Filename Value="nifti_foreign.pas"/>
+        <Caret Line="205" Column="10" TopLine="184"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainunit.pas"/>
+        <Caret Line="10195" Column="38" TopLine="10191"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
